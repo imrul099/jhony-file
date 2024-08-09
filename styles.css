@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222222;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.calculator-chart h2{
+  margin-bottom: 16px;
+}
+
+p{
+  color: #fff;
+  opacity: 0.8;
+}
+
+.section-container{
+    margin: 30px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calculator-chart{
+    width: 80%;
+}
+
+.bmi{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+table.table-container {
+    width: 50%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #abb2bf;
+    border-style: solid;
+    color: #fff;
+  }
+
+  table.table-container td,
+  table.table-container th {
+    border-width: 2px;
+    border-color: #abb2bf;
+    border-style: solid;
+    padding: 10px;
+  }
+
+  table.table-container thead {
+    background-color: transparent;
+  }
+  table.table-container td {
+    opacity: 0.8;
+  }
+
+  .input-box{
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    gap: 10px;
+  }
+
+  input{
+    background: #383838;
+    outline: 0;
+    border: 0;
+    padding: 12px 10px;
+    border-radius: 8px;
+  }
+
+  button{
+    width: 90px;
+    background: rgb(231, 91, 66);
+    outline: 0;
+    border: 0;
+    padding: 15px 10px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+  }
